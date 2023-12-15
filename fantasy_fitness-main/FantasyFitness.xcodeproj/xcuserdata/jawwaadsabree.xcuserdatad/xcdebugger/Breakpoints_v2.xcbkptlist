@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5E7EA007-522F-40F4-A866-4C510740D6FA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B1C2F60C-3995-478B-8EF3-B71B9A5A0B03"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../var/folders/qg/jgc5w1q95dq367wjcbgxyhk80000gn/T/swift-generated-sources/@__swiftmacro_14FantasyFitness0031ChallengeMatchupViewswift_yFFIifMX129_0_33_BB8D85B490F75EC1AA47C687F05A711CLl7PreviewfMf_.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1"
+            endingLineNumber = "1"
+            landmarkName = "$s14FantasyFitness0031ChallengeMatchupViewswift_yFFIifMX129_0_33_BB8D85B490F75EC1AA47C687F05A711CLl7PreviewfMf_15PreviewRegistryfMu_"
+            landmarkType = "37">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

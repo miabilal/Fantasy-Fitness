@@ -1,0 +1,1037 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C1440992E0C687400246730 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2C1440922E0C687400246730 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2C1440A12E0C6D3400246730 /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 2C1440A02E0C6D3400246730 /* OneSignalExtension */; };
+		2C1440A32E0C6D3400246730 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 2C1440A22E0C6D3400246730 /* OneSignalFramework */; };
+		2C1440A52E0C6D3400246730 /* OneSignalInAppMessages in Frameworks */ = {isa = PBXBuildFile; productRef = 2C1440A42E0C6D3400246730 /* OneSignalInAppMessages */; };
+		2C1440AB2E0D039300246730 /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = 2C1440AA2E0D039300246730 /* PostgREST */; };
+		2C1440AD2E0D039300246730 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 2C1440AC2E0D039300246730 /* Supabase */; };
+		2C20D0EC2E023F0700590522 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C20D0EB2E023F0700590522 /* WidgetKit.framework */; };
+		2C20D0EE2E023F0700590522 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C20D0ED2E023F0700590522 /* SwiftUI.framework */; };
+		2C20D0FD2E023F0900590522 /* FantasyFitnessWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2C20D0E92E023F0700590522 /* FantasyFitnessWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2CEB9BC92E0369D200AF604E /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 2CEB9BC82E0369D200AF604E /* Auth */; };
+		2CEB9BCB2E0369D200AF604E /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = 2CEB9BCA2E0369D200AF604E /* Functions */; };
+		2CEB9BCD2E0369D200AF604E /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = 2CEB9BCC2E0369D200AF604E /* PostgREST */; };
+		2CEB9BCF2E0369D200AF604E /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = 2CEB9BCE2E0369D200AF604E /* Realtime */; };
+		2CEB9BD12E0369D200AF604E /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 2CEB9BD02E0369D200AF604E /* Storage */; };
+		2CEB9BD32E0369D200AF604E /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 2CEB9BD22E0369D200AF604E /* Supabase */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C1440972E0C687400246730 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C20D09B2E01279A00590522 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C1440912E0C687400246730;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+		2C20D0B32E01279B00590522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C20D09B2E01279A00590522 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C20D0A22E01279A00590522;
+			remoteInfo = FantasyFitness;
+		};
+		2C20D0BD2E01279B00590522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C20D09B2E01279A00590522 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C20D0A22E01279A00590522;
+			remoteInfo = FantasyFitness;
+		};
+		2C20D0FB2E023F0900590522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C20D09B2E01279A00590522 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C20D0E82E023F0700590522;
+			remoteInfo = FantasyFitnessWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2C20D1022E023F0900590522 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2C1440992E0C687400246730 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */,
+				2C20D0FD2E023F0900590522 /* FantasyFitnessWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2C1440922E0C687400246730 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C20D0A32E01279A00590522 /* FantasyFitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FantasyFitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C20D0B22E01279B00590522 /* FantasyFitnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FantasyFitnessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C20D0BC2E01279B00590522 /* FantasyFitnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FantasyFitnessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C20D0E92E023F0700590522 /* FantasyFitnessWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FantasyFitnessWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C20D0EB2E023F0700590522 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		2C20D0ED2E023F0700590522 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		2C20D1072E0255B300590522 /* FantasyFitnessWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FantasyFitnessWidgetExtension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2C14409D2E0C687400246730 /* Exceptions for "OneSignalNotificationServiceExtension" folder in "OneSignalNotificationServiceExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2C1440912E0C687400246730 /* OneSignalNotificationServiceExtension */;
+		};
+		2C20D0FE2E023F0900590522 /* Exceptions for "FantasyFitnessWidget" folder in "FantasyFitnessWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2C20D0E82E023F0700590522 /* FantasyFitnessWidgetExtension */;
+		};
+		2C20D1042E02409600590522 /* Exceptions for "FantasyFitness" folder in "FantasyFitnessWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+			);
+			target = 2C20D0E82E023F0700590522 /* FantasyFitnessWidgetExtension */;
+		};
+		2C20D1062E0244F100590522 /* Exceptions for "FantasyFitness" folder in "FantasyFitness" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2C20D0A22E01279A00590522 /* FantasyFitness */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2C1440932E0C687400246730 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2C14409D2E0C687400246730 /* Exceptions for "OneSignalNotificationServiceExtension" folder in "OneSignalNotificationServiceExtension" target */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		2C20D0A52E01279A00590522 /* FantasyFitness */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2C20D1062E0244F100590522 /* Exceptions for "FantasyFitness" folder in "FantasyFitness" target */,
+				2C20D1042E02409600590522 /* Exceptions for "FantasyFitness" folder in "FantasyFitnessWidgetExtension" target */,
+			);
+			path = FantasyFitness;
+			sourceTree = "<group>";
+		};
+		2C20D0B52E01279B00590522 /* FantasyFitnessTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FantasyFitnessTests;
+			sourceTree = "<group>";
+		};
+		2C20D0BF2E01279B00590522 /* FantasyFitnessUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FantasyFitnessUITests;
+			sourceTree = "<group>";
+		};
+		2C20D0EF2E023F0700590522 /* FantasyFitnessWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2C20D0FE2E023F0900590522 /* Exceptions for "FantasyFitnessWidget" folder in "FantasyFitnessWidgetExtension" target */,
+			);
+			path = FantasyFitnessWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C14408F2E0C687400246730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C1440A12E0C6D3400246730 /* OneSignalExtension in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C20D0A02E01279A00590522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CEB9BCD2E0369D200AF604E /* PostgREST in Frameworks */,
+				2CEB9BCB2E0369D200AF604E /* Functions in Frameworks */,
+				2C1440A32E0C6D3400246730 /* OneSignalFramework in Frameworks */,
+				2CEB9BD32E0369D200AF604E /* Supabase in Frameworks */,
+				2CEB9BC92E0369D200AF604E /* Auth in Frameworks */,
+				2CEB9BD12E0369D200AF604E /* Storage in Frameworks */,
+				2C1440A52E0C6D3400246730 /* OneSignalInAppMessages in Frameworks */,
+				2CEB9BCF2E0369D200AF604E /* Realtime in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C20D0AF2E01279B00590522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C20D0B92E01279B00590522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C20D0E62E023F0700590522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C1440AD2E0D039300246730 /* Supabase in Frameworks */,
+				2C1440AB2E0D039300246730 /* PostgREST in Frameworks */,
+				2C20D0EE2E023F0700590522 /* SwiftUI.framework in Frameworks */,
+				2C20D0EC2E023F0700590522 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C20D09A2E01279A00590522 = {
+			isa = PBXGroup;
+			children = (
+				2C20D1072E0255B300590522 /* FantasyFitnessWidgetExtension.entitlements */,
+				2C20D0A52E01279A00590522 /* FantasyFitness */,
+				2C20D0B52E01279B00590522 /* FantasyFitnessTests */,
+				2C20D0BF2E01279B00590522 /* FantasyFitnessUITests */,
+				2C20D0EF2E023F0700590522 /* FantasyFitnessWidget */,
+				2C1440932E0C687400246730 /* OneSignalNotificationServiceExtension */,
+				2C20D0EA2E023F0700590522 /* Frameworks */,
+				2C20D0A42E01279A00590522 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C20D0A42E01279A00590522 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C20D0A32E01279A00590522 /* FantasyFitness.app */,
+				2C20D0B22E01279B00590522 /* FantasyFitnessTests.xctest */,
+				2C20D0BC2E01279B00590522 /* FantasyFitnessUITests.xctest */,
+				2C20D0E92E023F0700590522 /* FantasyFitnessWidgetExtension.appex */,
+				2C1440922E0C687400246730 /* OneSignalNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C20D0EA2E023F0700590522 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C20D0EB2E023F0700590522 /* WidgetKit.framework */,
+				2C20D0ED2E023F0700590522 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C1440912E0C687400246730 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C14409A2E0C687400246730 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				2C14408E2E0C687400246730 /* Sources */,
+				2C14408F2E0C687400246730 /* Frameworks */,
+				2C1440902E0C687400246730 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2C1440932E0C687400246730 /* OneSignalNotificationServiceExtension */,
+			);
+			name = OneSignalNotificationServiceExtension;
+			packageProductDependencies = (
+				2C1440A02E0C6D3400246730 /* OneSignalExtension */,
+			);
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 2C1440922E0C687400246730 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		2C20D0A22E01279A00590522 /* FantasyFitness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C20D0C62E01279B00590522 /* Build configuration list for PBXNativeTarget "FantasyFitness" */;
+			buildPhases = (
+				2C20D09F2E01279A00590522 /* Sources */,
+				2C20D0A02E01279A00590522 /* Frameworks */,
+				2C20D0A12E01279A00590522 /* Resources */,
+				2C20D1022E023F0900590522 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C20D0FC2E023F0900590522 /* PBXTargetDependency */,
+				2C1440982E0C687400246730 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2C20D0A52E01279A00590522 /* FantasyFitness */,
+			);
+			name = FantasyFitness;
+			packageProductDependencies = (
+				2CEB9BC82E0369D200AF604E /* Auth */,
+				2CEB9BCA2E0369D200AF604E /* Functions */,
+				2CEB9BCC2E0369D200AF604E /* PostgREST */,
+				2CEB9BCE2E0369D200AF604E /* Realtime */,
+				2CEB9BD02E0369D200AF604E /* Storage */,
+				2CEB9BD22E0369D200AF604E /* Supabase */,
+				2C1440A22E0C6D3400246730 /* OneSignalFramework */,
+				2C1440A42E0C6D3400246730 /* OneSignalInAppMessages */,
+			);
+			productName = FantasyFitness;
+			productReference = 2C20D0A32E01279A00590522 /* FantasyFitness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C20D0B12E01279B00590522 /* FantasyFitnessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C20D0C92E01279B00590522 /* Build configuration list for PBXNativeTarget "FantasyFitnessTests" */;
+			buildPhases = (
+				2C20D0AE2E01279B00590522 /* Sources */,
+				2C20D0AF2E01279B00590522 /* Frameworks */,
+				2C20D0B02E01279B00590522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C20D0B42E01279B00590522 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2C20D0B52E01279B00590522 /* FantasyFitnessTests */,
+			);
+			name = FantasyFitnessTests;
+			packageProductDependencies = (
+			);
+			productName = FantasyFitnessTests;
+			productReference = 2C20D0B22E01279B00590522 /* FantasyFitnessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C20D0BB2E01279B00590522 /* FantasyFitnessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C20D0CC2E01279B00590522 /* Build configuration list for PBXNativeTarget "FantasyFitnessUITests" */;
+			buildPhases = (
+				2C20D0B82E01279B00590522 /* Sources */,
+				2C20D0B92E01279B00590522 /* Frameworks */,
+				2C20D0BA2E01279B00590522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C20D0BE2E01279B00590522 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2C20D0BF2E01279B00590522 /* FantasyFitnessUITests */,
+			);
+			name = FantasyFitnessUITests;
+			packageProductDependencies = (
+			);
+			productName = FantasyFitnessUITests;
+			productReference = 2C20D0BC2E01279B00590522 /* FantasyFitnessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2C20D0E82E023F0700590522 /* FantasyFitnessWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C20D0FF2E023F0900590522 /* Build configuration list for PBXNativeTarget "FantasyFitnessWidgetExtension" */;
+			buildPhases = (
+				2C20D0E52E023F0700590522 /* Sources */,
+				2C20D0E62E023F0700590522 /* Frameworks */,
+				2C20D0E72E023F0700590522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2C20D0EF2E023F0700590522 /* FantasyFitnessWidget */,
+			);
+			name = FantasyFitnessWidgetExtension;
+			packageProductDependencies = (
+				2C1440AA2E0D039300246730 /* PostgREST */,
+				2C1440AC2E0D039300246730 /* Supabase */,
+			);
+			productName = FantasyFitnessWidgetExtension;
+			productReference = 2C20D0E92E023F0700590522 /* FantasyFitnessWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C20D09B2E01279A00590522 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					2C1440912E0C687400246730 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					2C20D0A22E01279A00590522 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					2C20D0B12E01279B00590522 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 2C20D0A22E01279A00590522;
+					};
+					2C20D0BB2E01279B00590522 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 2C20D0A22E01279A00590522;
+					};
+					2C20D0E82E023F0700590522 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 2C20D09E2E01279A00590522 /* Build configuration list for PBXProject "FantasyFitness" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C20D09A2E01279A00590522;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2CEB9BC72E0369D200AF604E /* XCRemoteSwiftPackageReference "supabase-swift" */,
+				2C14409F2E0C6D3400246730 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2C20D0A42E01279A00590522 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C20D0A22E01279A00590522 /* FantasyFitness */,
+				2C20D0B12E01279B00590522 /* FantasyFitnessTests */,
+				2C20D0BB2E01279B00590522 /* FantasyFitnessUITests */,
+				2C20D0E82E023F0700590522 /* FantasyFitnessWidgetExtension */,
+				2C1440912E0C687400246730 /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C1440902E0C687400246730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C20D0A12E01279A00590522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C20D0B02E01279B00590522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C20D0BA2E01279B00590522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C20D0E72E023F0700590522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C14408E2E0C687400246730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C20D09F2E01279A00590522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C20D0AE2E01279B00590522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C20D0B82E01279B00590522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C20D0E52E023F0700590522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C1440982E0C687400246730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C1440912E0C687400246730 /* OneSignalNotificationServiceExtension */;
+			targetProxy = 2C1440972E0C687400246730 /* PBXContainerItemProxy */;
+		};
+		2C20D0B42E01279B00590522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C20D0A22E01279A00590522 /* FantasyFitness */;
+			targetProxy = 2C20D0B32E01279B00590522 /* PBXContainerItemProxy */;
+		};
+		2C20D0BE2E01279B00590522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C20D0A22E01279A00590522 /* FantasyFitness */;
+			targetProxy = 2C20D0BD2E01279B00590522 /* PBXContainerItemProxy */;
+		};
+		2C20D0FC2E023F0900590522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C20D0E82E023F0700590522 /* FantasyFitnessWidgetExtension */;
+			targetProxy = 2C20D0FB2E023F0900590522 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C14409B2E0C687400246730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M5SRZY657F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jawwaad.FantasyFitness.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C14409C2E0C687400246730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M5SRZY657F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jawwaad.FantasyFitness.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C20D0C42E01279B00590522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 7;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = M5SRZY657F;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 2.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C20D0C52E01279B00590522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 7;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = M5SRZY657F;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 2.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C20D0C72E01279B00590522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = FantasyFitness/FantasyFitness.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M5SRZY657F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FantasyFitness/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Fantasy Fitness";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Gimme your health data and stop being a bum!";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "just hit ok bum";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jawwaad.FantasyFitness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C20D0C82E01279B00590522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = FantasyFitness/FantasyFitness.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M5SRZY657F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FantasyFitness/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Fantasy Fitness";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Gimme your health data and stop being a bum!";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "just hit ok bum";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jawwaad.FantasyFitness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C20D0CA2E01279B00590522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = M5SRZY657F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jawwaad.FantasyFitnessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FantasyFitness.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FantasyFitness";
+			};
+			name = Debug;
+		};
+		2C20D0CB2E01279B00590522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = M5SRZY657F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jawwaad.FantasyFitnessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FantasyFitness.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FantasyFitness";
+			};
+			name = Release;
+		};
+		2C20D0CD2E01279B00590522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = M5SRZY657F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jawwaad.FantasyFitnessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FantasyFitness;
+			};
+			name = Debug;
+		};
+		2C20D0CE2E01279B00590522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = M5SRZY657F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jawwaad.FantasyFitnessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FantasyFitness;
+			};
+			name = Release;
+		};
+		2C20D1002E023F0900590522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = FantasyFitnessWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M5SRZY657F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FantasyFitnessWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FantasyFitnessWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jawwaad.FantasyFitness.FantasyFitnessWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C20D1012E023F0900590522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = FantasyFitnessWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M5SRZY657F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FantasyFitnessWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FantasyFitnessWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jawwaad.FantasyFitness.FantasyFitnessWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C14409A2E0C687400246730 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C14409B2E0C687400246730 /* Debug */,
+				2C14409C2E0C687400246730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C20D09E2E01279A00590522 /* Build configuration list for PBXProject "FantasyFitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C20D0C42E01279B00590522 /* Debug */,
+				2C20D0C52E01279B00590522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C20D0C62E01279B00590522 /* Build configuration list for PBXNativeTarget "FantasyFitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C20D0C72E01279B00590522 /* Debug */,
+				2C20D0C82E01279B00590522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C20D0C92E01279B00590522 /* Build configuration list for PBXNativeTarget "FantasyFitnessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C20D0CA2E01279B00590522 /* Debug */,
+				2C20D0CB2E01279B00590522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C20D0CC2E01279B00590522 /* Build configuration list for PBXNativeTarget "FantasyFitnessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C20D0CD2E01279B00590522 /* Debug */,
+				2C20D0CE2E01279B00590522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C20D0FF2E023F0900590522 /* Build configuration list for PBXNativeTarget "FantasyFitnessWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C20D1002E023F0900590522 /* Debug */,
+				2C20D1012E023F0900590522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2C14409F2E0C6D3400246730 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-iOS-SDK";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.14;
+			};
+		};
+		2CEB9BC72E0369D200AF604E /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase-community/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2C1440A02E0C6D3400246730 /* OneSignalExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C14409F2E0C6D3400246730 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalExtension;
+		};
+		2C1440A22E0C6D3400246730 /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C14409F2E0C6D3400246730 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalFramework;
+		};
+		2C1440A42E0C6D3400246730 /* OneSignalInAppMessages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C14409F2E0C6D3400246730 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalInAppMessages;
+		};
+		2C1440AA2E0D039300246730 /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2CEB9BC72E0369D200AF604E /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		2C1440AC2E0D039300246730 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2CEB9BC72E0369D200AF604E /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+		2CEB9BC82E0369D200AF604E /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2CEB9BC72E0369D200AF604E /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		2CEB9BCA2E0369D200AF604E /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2CEB9BC72E0369D200AF604E /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		2CEB9BCC2E0369D200AF604E /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2CEB9BC72E0369D200AF604E /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		2CEB9BCE2E0369D200AF604E /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2CEB9BC72E0369D200AF604E /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		2CEB9BD02E0369D200AF604E /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2CEB9BC72E0369D200AF604E /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		2CEB9BD22E0369D200AF604E /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2CEB9BC72E0369D200AF604E /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2C20D09B2E01279A00590522 /* Project object */;
+}
