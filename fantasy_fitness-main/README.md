@@ -199,6 +199,6 @@ This project is for demonstration purposes and showcases iOS development skills.
 
 ---
 
-### ⚡ Built by Jawwaad Sabree  
+### ⚡ Built by Bilal With ❤️
 FantasyFitness is an indie passion project designed to make fitness more fun and engaging through gamification.  
-Follow along on [Twitter](https://twitter.com/jawwaadsabree) or check out more work at [jawwaadsabree.dev](https://jawwaadsabree.dev)  
+Follow along on [Linkedin](https://www.linkedin.com/in/miabilal/)
